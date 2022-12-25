@@ -1,0 +1,62 @@
+.formContainer{
+    display: flex;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    letter-spacing: 2px;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: cursive;
+    color: blue;
+    justify-content: center;
+    
+}
+.email{
+    color: black;
+    align-items: center;
+    border-radius: 10px;
+    background-color: lightgreen;
+    outline: 0;
+    padding: 2%;
+    width: 100%;
+    box-shadow: 0 0 10px purple;
+}
+.password{
+    color: black;
+    border-radius: 10px;
+    align-items: center;
+    width: 100%;
+    background-color: lightgreen;
+    outline: 0;
+    padding: 2%;
+    box-shadow: 0 0 10px purple;
+}
+.background-image{
+    background-image: url(img/trip2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.btn1{
+    font-weight: bold;
+    box-shadow: 0 0 10px purple;
+    border-radius: 10px;
+    font-family: Courier;
+    color: black;
+    background-color: yellow;
+}
+.btn2{
+    font-weight: bold;
+    box-shadow: 0 0 10px purple;
+    border-radius: 10px;
+    font-family: courier;
+    color: black;
+    background-color: lightseagreen;
+}
+.btn3{
+    font-weight: bold;
+    box-shadow: 0 0 10px purple;
+    border-radius: 10px;
+    font-family: courier;
+    color: black;
+    background-color: orange;
+}
